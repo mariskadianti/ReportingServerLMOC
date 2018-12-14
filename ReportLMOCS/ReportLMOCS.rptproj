@@ -6,7 +6,7 @@
     <ErrorLevel>2</ErrorLevel>
     <OverwriteDatasets>False</OverwriteDatasets>
     <OverwriteDataSources>False</OverwriteDataSources>
-    <TargetServerVersion>SSRS2016</TargetServerVersion>
+    <TargetServerVersion>SSRS2008R2</TargetServerVersion>
     <Platform>Win32</Platform>
     <TargetReportFolder>ReportLMOCS</TargetReportFolder>
     <TargetDatasetFolder>Datasets</TargetDatasetFolder>
@@ -54,6 +54,11 @@
   </ItemGroup>
   <ItemGroup>
     <Report Include="ReportLMOC.rdl" />
+    <Report Include="ReportLMOCRider.rdl" />
+    <Report Include="ReportLMOCSummaryRider.rdl" />
+    <Report Include="ReportLMOCSummaryRiderByUser.rdl" />
+    <Report Include="ReportLMOCSummaryStandby.rdl" />
+    <Report Include="ReportLMOCSummaryStandbyByUser.rdl" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Reporting Services\Microsoft.ReportingServices.MSBuilder.targets" />
 </Project>

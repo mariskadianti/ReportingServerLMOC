@@ -2,7 +2,7 @@
 <RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="DataSourceLMOC">
   <ConnectionProperties>
     <Extension>SQL</Extension>
-    <ConnectString>Data Source=66.96.237.20,49172;Initial Catalog=LMOCS</ConnectString>
+    <ConnectString>Data Source=IAOC-N022;Initial Catalog=LMOCS</ConnectString>
   </ConnectionProperties>
   <DataSourceID>ba71e2eb-77f3-417c-9e9a-838ada41cc7a</DataSourceID>
 </RptDataSource>
