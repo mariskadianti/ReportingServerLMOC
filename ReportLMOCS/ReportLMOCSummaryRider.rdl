@@ -1030,7 +1030,7 @@ ORDER BY UserId, Startdate</CommandText>
               </TablixMembers>
             </TablixRowHierarchy>
             <DataSetName>SummaryStandbyDataSet</DataSetName>
-            <Top>11.42146cm</Top>
+            <Top>10.28912cm</Top>
             <Left>0.30651cm</Left>
             <Height>2.41708cm</Height>
             <Width>31.99663cm</Width>
@@ -1044,42 +1044,6 @@ ORDER BY UserId, Startdate</CommandText>
               </Border>
             </Style>
           </Tablix>
-          <Textbox Name="Textbox63">
-            <CanGrow>true</CanGrow>
-            <KeepTogether>true</KeepTogether>
-            <Paragraphs>
-              <Paragraph>
-                <TextRuns>
-                  <TextRun>
-                    <Value>Report Rute Petugas Menyimpang (Summary)</Value>
-                    <Style>
-                      <FontFamily>Segoe UI</FontFamily>
-                      <FontSize>16pt</FontSize>
-                      <FontWeight>Bold</FontWeight>
-                    </Style>
-                  </TextRun>
-                </TextRuns>
-                <Style>
-                  <TextAlign>Center</TextAlign>
-                </Style>
-              </Paragraph>
-            </Paragraphs>
-            <rd:DefaultName>Textbox63</rd:DefaultName>
-            <Left>0.30651cm</Left>
-            <Height>1.70173cm</Height>
-            <Width>9.56438cm</Width>
-            <ZIndex>1</ZIndex>
-            <Style>
-              <Border>
-                <Style>None</Style>
-              </Border>
-              <BackgroundColor>White</BackgroundColor>
-              <PaddingLeft>2pt</PaddingLeft>
-              <PaddingRight>2pt</PaddingRight>
-              <PaddingTop>2pt</PaddingTop>
-              <PaddingBottom>2pt</PaddingBottom>
-            </Style>
-          </Textbox>
           <Chart Name="Chart1">
             <ChartCategoryHierarchy>
               <ChartMembers>
@@ -1467,11 +1431,11 @@ ORDER BY UserId, Startdate</CommandText>
               </Style>
             </ChartNoDataMessage>
             <DataSetName>SummaryStandbyDataSet</DataSetName>
-            <Top>1.73701cm</Top>
+            <Top>0.41409cm</Top>
             <Left>0.30651cm</Left>
             <Height>7.96333cm</Height>
             <Width>18.66542cm</Width>
-            <ZIndex>2</ZIndex>
+            <ZIndex>1</ZIndex>
             <Style>
               <Border>
                 <Color>LightGrey</Color>
@@ -1499,11 +1463,11 @@ ORDER BY UserId, Startdate</CommandText>
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox1</rd:DefaultName>
-            <Top>10.28912cm</Top>
+            <Top>9.15678cm</Top>
             <Left>0.30651cm</Left>
             <Height>0.81167cm</Height>
             <Width>5.14583cm</Width>
-            <ZIndex>3</ZIndex>
+            <ZIndex>2</ZIndex>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -1526,6 +1490,54 @@ ORDER BY UserId, Startdate</CommandText>
       </Body>
       <Width>12.9246in</Width>
       <Page>
+        <PageHeader>
+          <Height>2.54cm</Height>
+          <PrintOnFirstPage>true</PrintOnFirstPage>
+          <PrintOnLastPage>true</PrintOnLastPage>
+          <ReportItems>
+            <Textbox Name="Textbox63">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>Report Rute Petugas Menyimpang (Summary)</Value>
+                      <Style>
+                        <FontFamily>Segoe UI</FontFamily>
+                        <FontSize>16pt</FontSize>
+                        <FontWeight>Bold</FontWeight>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Center</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox63</rd:DefaultName>
+              <Top>0.13542in</Top>
+              <Left>10.59501cm</Left>
+              <Height>1.70173cm</Height>
+              <Width>9.56438cm</Width>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <BackgroundColor>White</BackgroundColor>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+          </ReportItems>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+          </Style>
+        </PageHeader>
         <PageHeight>29.7cm</PageHeight>
         <PageWidth>21cm</PageWidth>
         <LeftMargin>2cm</LeftMargin>

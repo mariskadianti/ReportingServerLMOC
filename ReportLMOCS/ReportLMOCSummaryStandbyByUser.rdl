@@ -1231,8 +1231,8 @@ ORDER BY UserId, Startdate</CommandText>
               </TablixMembers>
             </TablixRowHierarchy>
             <DataSetName>SummaryStandbyDataSet</DataSetName>
-            <Top>3.79173cm</Top>
-            <Left>0.36067cm</Left>
+            <Top>1.70152cm</Top>
+            <Left>0.45358cm</Left>
             <Height>2.41708cm</Height>
             <Width>33.79076cm</Width>
             <Style>
@@ -1241,42 +1241,6 @@ ORDER BY UserId, Startdate</CommandText>
               </Border>
             </Style>
           </Tablix>
-          <Textbox Name="Textbox63">
-            <CanGrow>true</CanGrow>
-            <KeepTogether>true</KeepTogether>
-            <Paragraphs>
-              <Paragraph>
-                <TextRuns>
-                  <TextRun>
-                    <Value>REPORT MENYIMPANG JALUR (DETAIL SUMMARY USER)</Value>
-                    <Style>
-                      <FontFamily>Segoe UI</FontFamily>
-                      <FontSize>16pt</FontSize>
-                      <FontWeight>Bold</FontWeight>
-                    </Style>
-                  </TextRun>
-                </TextRuns>
-                <Style>
-                  <TextAlign>Center</TextAlign>
-                </Style>
-              </Paragraph>
-            </Paragraphs>
-            <rd:DefaultName>Textbox63</rd:DefaultName>
-            <Left>0.36067cm</Left>
-            <Height>1.67528cm</Height>
-            <Width>9.35271cm</Width>
-            <ZIndex>1</ZIndex>
-            <Style>
-              <Border>
-                <Style>None</Style>
-              </Border>
-              <BackgroundColor>White</BackgroundColor>
-              <PaddingLeft>2pt</PaddingLeft>
-              <PaddingRight>2pt</PaddingRight>
-              <PaddingTop>2pt</PaddingTop>
-              <PaddingBottom>2pt</PaddingBottom>
-            </Style>
-          </Textbox>
           <Textbox Name="Textbox1">
             <CanGrow>true</CanGrow>
             <KeepTogether>true</KeepTogether>
@@ -1321,11 +1285,11 @@ ORDER BY UserId, Startdate</CommandText>
                 </Action>
               </Actions>
             </ActionInfo>
-            <Top>2.32815cm</Top>
+            <Top>0.50252cm</Top>
             <Left>0.36067cm</Left>
             <Height>0.6cm</Height>
             <Width>6.91854cm</Width>
-            <ZIndex>2</ZIndex>
+            <ZIndex>1</ZIndex>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -1338,7 +1302,7 @@ ORDER BY UserId, Startdate</CommandText>
             </Style>
           </Textbox>
         </ReportItems>
-        <Height>2.63191in</Height>
+        <Height>1.89233in</Height>
         <Style>
           <Border>
             <Style>None</Style>
@@ -1348,6 +1312,54 @@ ORDER BY UserId, Startdate</CommandText>
       </Body>
       <Width>13.53919in</Width>
       <Page>
+        <PageHeader>
+          <Height>2.54cm</Height>
+          <PrintOnFirstPage>true</PrintOnFirstPage>
+          <PrintOnLastPage>true</PrintOnLastPage>
+          <ReportItems>
+            <Textbox Name="Textbox63">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>REPORT MENYIMPANG JALUR (DETAIL SUMMARY USER)</Value>
+                      <Style>
+                        <FontFamily>Segoe UI</FontFamily>
+                        <FontSize>16pt</FontSize>
+                        <FontWeight>Bold</FontWeight>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Center</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox63</rd:DefaultName>
+              <Top>0.13542in</Top>
+              <Left>13.13627cm</Left>
+              <Height>1.67528cm</Height>
+              <Width>9.35271cm</Width>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <BackgroundColor>White</BackgroundColor>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+          </ReportItems>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+          </Style>
+        </PageHeader>
         <PageHeight>29.7cm</PageHeight>
         <PageWidth>21cm</PageWidth>
         <LeftMargin>2cm</LeftMargin>

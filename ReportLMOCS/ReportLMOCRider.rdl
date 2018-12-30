@@ -198,7 +198,7 @@ WHERE        (DepartmentId = @DepartmentId)</CommandText>
               </TablixColumns>
               <TablixRows>
                 <TablixRow>
-                  <Height>4.66562cm</Height>
+                  <Height>4.92512cm</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -221,7 +221,7 @@ WHERE        (DepartmentId = @DepartmentId)</CommandText>
                                 </Paragraph>
                               </Paragraphs>
                               <rd:DefaultName>DateShift1</rd:DefaultName>
-                              <Top>0.84223cm</Top>
+                              <Top>0.33444cm</Top>
                               <Left>0.26458cm</Left>
                               <Height>0.6cm</Height>
                               <Width>2.5cm</Width>
@@ -1599,7 +1599,7 @@ WHERE        (DepartmentId = @DepartmentId)</CommandText>
                                 </TablixMembers>
                               </TablixRowHierarchy>
                               <DataSetName>TaskListDataSet</DataSetName>
-                              <Top>1.84284cm</Top>
+                              <Top>1.44088cm</Top>
                               <Left>0.26458cm</Left>
                               <Height>2.41708cm</Height>
                               <Width>45.34645cm</Width>
@@ -1610,42 +1610,6 @@ WHERE        (DepartmentId = @DepartmentId)</CommandText>
                                 </Border>
                               </Style>
                             </Tablix>
-                            <Textbox Name="Textbox63">
-                              <CanGrow>true</CanGrow>
-                              <KeepTogether>true</KeepTogether>
-                              <Paragraphs>
-                                <Paragraph>
-                                  <TextRuns>
-                                    <TextRun>
-                                      <Value>Report Rute Petugas Menyimpang (Detail)</Value>
-                                      <Style>
-                                        <FontFamily>Segoe UI</FontFamily>
-                                        <FontSize>16pt</FontSize>
-                                        <FontWeight>Bold</FontWeight>
-                                      </Style>
-                                    </TextRun>
-                                  </TextRuns>
-                                  <Style>
-                                    <TextAlign>Center</TextAlign>
-                                  </Style>
-                                </Paragraph>
-                              </Paragraphs>
-                              <rd:DefaultName>Textbox63</rd:DefaultName>
-                              <Left>21.43cm</Left>
-                              <Height>1.70173cm</Height>
-                              <Width>9.56438cm</Width>
-                              <ZIndex>2</ZIndex>
-                              <Style>
-                                <Border>
-                                  <Style>None</Style>
-                                </Border>
-                                <BackgroundColor>White</BackgroundColor>
-                                <PaddingLeft>2pt</PaddingLeft>
-                                <PaddingRight>2pt</PaddingRight>
-                                <PaddingTop>2pt</PaddingTop>
-                                <PaddingBottom>2pt</PaddingBottom>
-                              </Style>
-                            </Textbox>
                           </ReportItems>
                           <KeepTogether>true</KeepTogether>
                           <Style>
@@ -1686,7 +1650,7 @@ WHERE        (DepartmentId = @DepartmentId)</CommandText>
             </TablixRowHierarchy>
             <DataSetName>TaskListDataSet</DataSetName>
             <Top>0.00195cm</Top>
-            <Height>4.66562cm</Height>
+            <Height>4.92512cm</Height>
             <Width>45.77954cm</Width>
             <Style>
               <Border>
@@ -1695,7 +1659,7 @@ WHERE        (DepartmentId = @DepartmentId)</CommandText>
             </Style>
           </Tablix>
         </ReportItems>
-        <Height>1.89112in</Height>
+        <Height>1.93979in</Height>
         <Style>
           <Border>
             <Style>None</Style>
@@ -1705,6 +1669,54 @@ WHERE        (DepartmentId = @DepartmentId)</CommandText>
       </Body>
       <Width>18.07553in</Width>
       <Page>
+        <PageHeader>
+          <Height>2.54cm</Height>
+          <PrintOnFirstPage>true</PrintOnFirstPage>
+          <PrintOnLastPage>true</PrintOnLastPage>
+          <ReportItems>
+            <Textbox Name="Textbox63">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>Report Rute Petugas Menyimpang (Detail)</Value>
+                      <Style>
+                        <FontFamily>Segoe UI</FontFamily>
+                        <FontSize>16pt</FontSize>
+                        <FontWeight>Bold</FontWeight>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Center</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox63</rd:DefaultName>
+              <Top>0.14583in</Top>
+              <Left>17.71291cm</Left>
+              <Height>1.70173cm</Height>
+              <Width>9.56438cm</Width>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <BackgroundColor>White</BackgroundColor>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+          </ReportItems>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+          </Style>
+        </PageHeader>
         <PageHeight>29.7cm</PageHeight>
         <PageWidth>21cm</PageWidth>
         <LeftMargin>2cm</LeftMargin>
