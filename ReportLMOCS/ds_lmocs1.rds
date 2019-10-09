@@ -2,8 +2,7 @@
 <RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ds_lmocs1">
   <ConnectionProperties>
     <Extension>SQL</Extension>
-    <ConnectString>Data Source=66.96.237.20,49172;Initial Catalog=LMOCS_PROD</ConnectString>
-    <Prompt>HALOO</Prompt>
+    <ConnectString>Data Source=DESKTOP-J4O0FP3\SQLEXPRESS;Initial Catalog=LMOCS_NEW</ConnectString>
   </ConnectionProperties>
   <DataSourceID>2d624088-dca0-470c-b740-ab6f6432cba4</DataSourceID>
 </RptDataSource>

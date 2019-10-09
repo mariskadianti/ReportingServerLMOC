@@ -34,7 +34,7 @@ WHERE        (IsDeleted = 0) AND (RoleId = 4)</CommandText>
     <DataSet Name="DepartmentDataSet">
       <Query>
         <DataSourceName>ds_lmocs</DataSourceName>
-        <CommandText>SELECT        Id, DepartmentName, DepartmentType
+        <CommandText>SELECT        Id, DepartmentName
 FROM            MSDepartments</CommandText>
       </Query>
       <Fields>
@@ -45,10 +45,6 @@ FROM            MSDepartments</CommandText>
         <Field Name="DepartmentName">
           <DataField>DepartmentName</DataField>
           <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="DepartmentType">
-          <DataField>DepartmentType</DataField>
-          <rd:TypeName>System.Int32</rd:TypeName>
         </Field>
       </Fields>
     </DataSet>
