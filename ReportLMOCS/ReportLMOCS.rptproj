@@ -55,6 +55,7 @@
   <ItemGroup>
     <Report Include="ReportLMOC.rdl" />
     <Report Include="ReportLMOCRider.rdl" />
+    <Report Include="ReportLMOCSPerbandinganRute.rdl" />
     <Report Include="ReportLMOCSummaryRider.rdl" />
     <Report Include="ReportLMOCSummaryRiderByUser.rdl" />
     <Report Include="ReportLMOCSummaryStandby.rdl" />
